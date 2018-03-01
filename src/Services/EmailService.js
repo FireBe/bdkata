@@ -8,7 +8,7 @@ class EmailService {
                 auth: {
                     user: 'atu.cr92@gmail.com',
                     pass: 'Jr_131415'
-            }
+            } 
         });
 
         var mailOptions = {
