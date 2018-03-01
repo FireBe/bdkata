@@ -5,7 +5,7 @@ class BirthdayService {
         this.fileService = fileService;
         this.emailService = emailService;
     }
-
+ 
     sendTodayMessages(){
         var file = this.fileService.readFile();
         const that = this;
