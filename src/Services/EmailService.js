@@ -6,9 +6,9 @@ class EmailService {
             var transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: 'atu.cr92@gmail.com', 
+                    user: 'atu.cr92@gmail.com',
                     pass: 'Jr_131415'
-            } 
+            }
         });
 
         var mailOptions = {
@@ -17,6 +17,7 @@ class EmailService {
             subject: 'Happy birthday!',
             text: 'Happy birthday, dear '+ name +'! :)!'
         };
+
 
         transporter.sendMail(mailOptions, function(error, info){
             if (error) {
