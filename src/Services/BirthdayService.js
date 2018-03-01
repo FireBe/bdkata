@@ -24,7 +24,6 @@ class BirthdayService {
             return false;
         }
     }
-
 }
 
 module.exports = BirthdayService;
